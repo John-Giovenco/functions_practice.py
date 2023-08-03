@@ -5,7 +5,7 @@ hello()
 def pack(argument1, argument2, argument3):
   return(argument1, argument2, argument3)
 
-pack("h", "y", "l")
+print(pack("h", "y", "l"))
 
 def eat_lunch(my_list):
   if len(my_list) == 0:
